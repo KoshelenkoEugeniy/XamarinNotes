@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{63DD6BED-A48B-45D7-9727-700E5C7A6A2E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinNotes/Main.storyboard">
+    <Files>
+      <File FileName="XamarinNotes/Main.storyboard" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinNotes" expanded="True">
+            <Node name="XamarinNotes" expanded="True">
+              <Node name="CellControllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamarinNotes PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0C47862D-1C3F-4273-A1EA-B219F72ECF80" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+</Properties>

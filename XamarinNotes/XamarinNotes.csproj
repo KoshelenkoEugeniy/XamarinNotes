@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{63DD6BED-A48B-45D7-9727-700E5C7A6A2E}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>XamarinNotes</RootNamespace>
+    <AssemblyName>XamarinNotes</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>45623</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>57706</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\First.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\First.imageset\vector.pdf" />
+    <ImageAsset Include="Assets.xcassets\Second.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Second.imageset\vector.pdf" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="CellControllers\" />
+    <Folder Include="Classes\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="TableSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Controllers\ActiveNC.cs" />
+    <Compile Include="Controllers\ActiveNC.designer.cs">
+      <DependentUpon>ActiveNC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FinishedNC.cs" />
+    <Compile Include="Controllers\FinishedNC.designer.cs">
+      <DependentUpon>FinishedNC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NoteListTVC.cs" />
+    <Compile Include="Controllers\NoteListTVC.designer.cs">
+      <DependentUpon>NoteListTVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CellControllers\ListNoteCell.cs" />
+    <Compile Include="CellControllers\ListNoteCell.designer.cs">
+      <DependentUpon>ListNoteCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CellControllers\AttachmentListCell.cs" />
+    <Compile Include="CellControllers\AttachmentListCell.designer.cs">
+      <DependentUpon>AttachmentListCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NoteVC.cs" />
+    <Compile Include="Controllers\NoteVC.designer.cs">
+      <DependentUpon>NoteVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Note.cs" />
+    <Compile Include="Interfaces\IDataBase.cs" />
+    <Compile Include="Interfaces\IObjectId.cs" />
+    <Compile Include="Interfaces\IObservable.cs" />
+    <Compile Include="Interfaces\IRepository&lt;T&gt;.cs" />
+    <Compile Include="Classes\Repository.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="Classes\DataBase.cs" />
+    <Compile Include="Classes\Model.cs" />
+    <Compile Include="Classes\Observer.cs" />
+    <Compile Include="Classes\Picture.cs" />
+    <Compile Include="TableSources\TableSourceForNotesList.cs" />
+    <Compile Include="TableSources\TableSourceForAttachmentsList.cs" />
+    <Compile Include="Controllers\MainTBC.cs" />
+    <Compile Include="Controllers\MainTBC.designer.cs">
+      <DependentUpon>MainTBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ImagePresenterVC.cs" />
+    <Compile Include="Controllers\ImagePresenterVC.designer.cs">
+      <DependentUpon>ImagePresenterVC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\NoteForDB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\checkmark.png" />
+    <BundleResource Include="Resources\file-text.png" />
+    <BundleResource Include="Resources\attachment.png" />
+    <BundleResource Include="Resources\paperclip2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

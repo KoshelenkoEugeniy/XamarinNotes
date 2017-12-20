@@ -1,0 +1,14 @@
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/bin/iPhoneSimulator/Debug/XamarinNotes.exe
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/bin/iPhoneSimulator/Debug/XamarinNotes.pdb
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/XamarinNotes.csproj.CoreCompileInputs.cache
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/XamarinNotes.exe
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/XamarinNotes.pdb
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/XamarinNotes.csprojResolveAssemblyReference.cache
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_PartialAppManifest.items
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/checkmark.png
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/file-text.png
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/attachment.png
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/paperclip2.png
+/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/

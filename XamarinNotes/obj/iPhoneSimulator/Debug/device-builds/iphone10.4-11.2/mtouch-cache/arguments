@@ -1,0 +1,39 @@
+# Version: 11.6.1.2 (xcode9.2: 6857dfcc)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
+	/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache \
+	--sim \
+	/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/XamarinNotes.app \
+	--executable \
+	XamarinNotes \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	11.2 \
+	--targetver \
+	11.2 \
+	--aot-options=-O=-float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=x86_64 \
+	--symbollist \
+	/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Mono.Data.Sqlite.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Data.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--target-framework \
+	'Xamarin.iOS,v1.0' \
+	/Users/evgenij/Documents/Developer/Xamarin/XamarinNotes/XamarinNotes/bin/iPhoneSimulator/Debug/XamarinNotes.exe \
